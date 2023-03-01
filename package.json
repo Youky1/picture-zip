@@ -1,0 +1,21 @@
+{
+  "name": "image-zip",
+  "version": "1.0.0",
+  "description": "用于压缩图片的命令行脚本",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "zip": "./bin/cli.js"
+  },
+  "repository": "https://github.com/Youky1/image-zip.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "@types/sharp": "^0.31.1"
+  },
+  "dependencies": {
+    "sharp": "^0.31.3"
+  }
+}
