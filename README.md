@@ -5,7 +5,7 @@
 安装：
 
 ```sh
-npm i -D image-zip
+npm i -D picture-zip
 ```
 
 使用：

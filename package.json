@@ -1,5 +1,5 @@
 {
-  "name": "image-zip",
+  "name": "picture-zip",
   "version": "1.0.0",
   "description": "用于压缩图片的命令行脚本",
   "main": "lib/index.js",
@@ -9,8 +9,8 @@
   "bin": {
     "zip": "./bin/cli.js"
   },
-  "repository": "https://github.com/Youky1/image-zip.git",
-  "homepage": "https://github.com/Youky1/image-zip.git",
+  "repository": "https://github.com/Youky1/picture-zip.git",
+  "homepage": "https://github.com/Youky1/picture-zip.git",
   "license": "MIT",
   "keywords": [
     "nodejs",
