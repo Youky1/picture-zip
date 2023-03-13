@@ -10,7 +10,16 @@
     "zip": "./bin/cli.js"
   },
   "repository": "https://github.com/Youky1/image-zip.git",
+  "homepage": "https://github.com/Youky1/image-zip.git",
   "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "image",
+    "png",
+    "jpg",
+    "zip"
+  ],
+  "author": "youky",
   "devDependencies": {
     "@types/node": "^18.14.2",
     "@types/sharp": "^0.31.1"

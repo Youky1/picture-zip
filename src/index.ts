@@ -1,6 +1,6 @@
-import sharp from "sharp";
-import fs from "fs";
-import path from "path";
+const fs = require("fs");
+const path = require("path");
+const sharp = require("sharp");
 
 const FILE_TYPE = /.png|.jpg/;
 
@@ -15,7 +15,7 @@ interface Option {
  **/
 const dfs = (root: string, type: RegExp, callback: Function) => {
   const files = fs.readdirSync(root);
-  files.forEach((file) => {
+  files.forEach((file: any) => {
     const img = path.join(root, file);
     const stat = fs.statSync(img);
     if (stat.isDirectory()) {
